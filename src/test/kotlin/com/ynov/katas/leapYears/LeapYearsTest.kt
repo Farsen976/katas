@@ -8,7 +8,7 @@ internal class LeapYearsTest {
     @Test
     fun`should be leap year if it's divisible by 400`(){
         val leapYears = LeapYears()
-        assertEquals("Leap Year", leapYears.execute(200))
+        assertEquals("Leap Year", leapYears.execute(2000))
     }
 
     @Test
